@@ -6,10 +6,10 @@ description: Register for a Groupon API key (client_id) to develop your own Grou
   and multiple-platform interfaces to work.
 image: http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Groupon
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,9 +22,9 @@ apis:
   tags: Status,Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/statusformat-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/status-format-parameters-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/statusformat-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/status-format-parameters-openapi.md
 - name: Groupon Get Status. Format
   x-api-slug: groupon
   description: Returns the status of Groupon's API and all the currently available
@@ -35,9 +35,9 @@ apis:
   tags: Status,Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/statusformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/status-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/statusformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/status-format-get-openapi.md
 - name: Groupon Parameters Divisions. Format
   x-api-slug: groupon
   description: Parameters divisions. format.
@@ -47,9 +47,9 @@ apis:
   tags: Divisions,Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisionsformat-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisions-format-parameters-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisionsformat-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisions-format-parameters-openapi.md
 - name: Groupon Get Divisions. Format
   x-api-slug: groupon
   description: Returns the list of all launched divisions.
@@ -59,9 +59,9 @@ apis:
   tags: Divisions,Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisionsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisions-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisionsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/divisions-format-get-openapi.md
 - name: Groupon Parameters Groupon Says. Format
   x-api-slug: groupon
   description: Parameters groupon says. format.
@@ -71,9 +71,9 @@ apis:
   tags: Groupon,Says,Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-saysformat-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-says-format-parameters-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-saysformat-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-says-format-parameters-openapi.md
 - name: Groupon Get Groupon Says. Format
   x-api-slug: groupon
   description: Returns the list of recent (or random) Groupon Says commentaries.
@@ -83,9 +83,9 @@ apis:
   tags: Groupon,Says,Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-saysformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-says-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-saysformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/groupon-says-format-get-openapi.md
 - name: Groupon Parameters Deals . Format
   x-api-slug: groupon
   description: Parameters deals . format.
@@ -95,7 +95,7 @@ apis:
   tags: Deals,Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsidformat-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsid-format-parameters-openapi.md
 - name: Groupon Get Deals . Format
   x-api-slug: groupon
   description: Returns the detailed information about a specified deal.
@@ -105,7 +105,7 @@ apis:
   tags: Deals,Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsid-format-get-openapi.md
 - name: Groupon Parameters Deals. Format
   x-api-slug: groupon
   description: Parameters deals. format.
@@ -115,7 +115,7 @@ apis:
   tags: Deals,Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsformat-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/deals-format-parameters-openapi.md
 - name: Groupon Get Deals. Format
   x-api-slug: groupon
   description: Returns an ordered list of deals that are currently launched for a
@@ -126,7 +126,7 @@ apis:
   tags: Deals,Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/deals-format-get-openapi.md
 - name: Groupon Parameters Deals Deal Adds. Format
   x-api-slug: groupon
   description: Parameters deals deal adds. format.
@@ -136,7 +136,7 @@ apis:
   tags: Deals,Deal,Posts,Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsdeal-idpostsformat-parameters-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsdeal-idposts-format-parameters-openapi.md
 - name: Groupon Get Deals Deal Adds. Format
   x-api-slug: groupon
   description: Returns the lists of all the discussion posts for the specified deal.
@@ -146,7 +146,7 @@ apis:
   tags: Deals,Deal,Posts,Format
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsdeal-idpostsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/dealsdeal-idposts-format-get-openapi.md
 - name: Groupon
   x-api-slug: groupon
   description: Register for a Groupon API key (client_id) to develop your own Groupon
@@ -160,7 +160,7 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/groupon.json
 - type: x-affiliate
   url: https://sites.google.com/site/grouponapiv2/api-usage/commission-junction-link-guide
@@ -178,6 +178,8 @@ x-common:
   url: http://www.groupon.com/pages/api-terms-of-use
 - type: x-website
   url: http://www.groupon.com/
+- type: x-website
+  url: http://groupon.com
 include: []
 maintainers:
 - FN: Kin Lane
