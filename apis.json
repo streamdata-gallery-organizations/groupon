@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Groupon",
+	"description": "This is a repository of groupon APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/groupon.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://groupon.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Groupon",
+			"x-api-slug": "groupon",
+			"description": "Register for a Groupon API key (client_id) to develop your own Groupon applications. Now, you can put all those great ideas for Groupon improvements, extensions, and multiple-platform interfaces to work.",
+			"image": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Groupon_logo.png/320px-Groupon_logo.png",
+			"humanURL": "http://www.groupon.com/",
+			"baseURL": "https://api.groupon.com//",
+			"tags": "Groupon",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Groupon",
+	"include": [
+		{
+			"name": "Groupon",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/groupon/master/_listings/groupon/apis.yaml"
+		}
+	]
+}

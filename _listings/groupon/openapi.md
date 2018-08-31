@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Groupon
 x-complete: 1
@@ -162,4 +161,3 @@ paths:
       - Deal
       - Posts
       - Format
----
